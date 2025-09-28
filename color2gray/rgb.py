@@ -1,7 +1,7 @@
 import cv2
 
 # Fotoğrafın tam yolu
-img_path = r"C:\Users\Ebrar Celik\Desktop\goruntu_renklendirme\siyah_beyaz.png"
+img_path = r"C:\Users\Ebrar Celik\Desktop\goruntu_renklendirme\goruntu_isleme\color2gray\siyah_beyaz.png"
 
 # Siyah-beyaz fotoğrafı oku
 gray = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
