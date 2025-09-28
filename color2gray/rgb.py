@@ -6,7 +6,6 @@ img_path = r"C:\Users\Ebrar Celik\Desktop\goruntu_renklendirme\goruntu_isleme\co
 # Siyah-beyaz fotoğrafı oku
 gray = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
 
-deneme deneme
 
 if gray is None:
     print("⚠️ Fotoğraf bulunamadı! Dosya yolunu kontrol et.")
